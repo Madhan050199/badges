@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+</html>
+<head>
+<title>Badges</title>
+</head>
+<style>
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+font-family:sans-serif;
+}
+.main_container{
+height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+gap:30px;
+}
+.primary_badge{
+line-height:30px;
+border:1px solid gray;
+border-radius:10px;
+padding:15px;
+width:55%;
+}
+.primary_badge .one span{
+padding:5px 9px;
+background-color:rgb(108,117,126);
+font-size:22px;
+color:white;
+border-radius:5px;
+margin-left:10px;
+cursor:pointer;
+}
+primary_badge .one{
+color:rgb(30,31,35);
+}
+.primary_badge .two span{
+padding:5px 9px;
+background-color:rgb(108,117,126);
+font-size:18px;
+color:white;
+border-radius:5px;
+margin-left:10px;
+cursor:pointer;
+}
+primary_badge .two{
+color:rgb(30,31,35);
+}
+.primary_badge .three span{
+padding:5px 9px;
+background-color:rgb(108,117,126);
+font-size:15px;
+color:white;
+border-radius:5px;
+margin-left:10px;
+cursor:pointer;
+}
+primary_badge .three{
+color:rgb(30,31,35);
+}
+.primary_badge .four span{
+padding:5px 9px;
+background-color:rgb(108,117,126);
+font-size:12px;
+color:white;
+border-radius:5px;
+margin-left:10px;
+cursor:pointer;
+}
+primary_badge .four{
+color:rgb(30,31,35);
+}
+.primary_badge .five span{
+padding:5px 9px;
+background-color:rgb(108,117,126);
+font-size:9px;
+color:white;
+border-radius:5px;
+margin-left:10px;
+cursor:pointer;
+}
+primary_badge .five{
+color:rgb(30,31,35);
+}
+.primary_badge .six span{
+padding:5px 9px;
+background-color:rgb(108,117,126);
+font-size:6px;
+color:white;
+border-radius:5px;
+margin-left:10px;
+cursor:pointer;
+}
+primary_badge .six{
+color:rgb(30,31,35);
+}
+
+.secondary_badge a{
+display:inline-block;
+padding:10px;
+letter-spacing:1px;
+background-color:rgb(23,120,255);
+border-radius:5px;
+color:white;
+font-weight:bold;
+text-decoration:none;
+font-size:12px;
+}
+.secondary_badge{
+width:55%;
+border:1px solid gray;
+padding:15px;
+border-radius:5px;
+position:relative;
+}
+.secondary_badge .notification{
+width:15px;
+height:15px;
+background-color:red;
+border:1px solid rgba(255, 255, 255,0.9);
+border-radius:10px;
+position:absolute;
+top:10px;
+left:70px;
+}
+.count_badge a{
+display:inline-block;
+padding:10px 15px;
+letter-spacing:1px;
+background-color:rgb(23,120,255);
+border-radius:5px;
+color:white;
+font-weight:bold;
+text-decoration:none;
+font-size:12px;
+}
+.count_badge{
+width:55%;
+border:1px solid gray;
+padding:15px;
+border-radius:5px;
+position:relative;
+}
+.count_badge .notification{
+width:30px;
+height:15px;
+font-size:10px;
+padding-top:2px;
+padding-left:8px;
+font-weight:bold;
+background-color:red;
+border-radius:10px;
+position:absolute;
+top:10px;
+left:70px;
+color:white;
+}
+.Normal_badge{
+border:1px solid gray;
+border-radius:10px;
+padding:15px;
+width:55%;
+}
+
+.Normal_badge a{
+display:inline-block;
+background-color:#0C6BFF;
+font-size:15px;
+color:white;
+text-decoration:none;
+padding:7px 10px;
+border-radius:5px;
+letter-spacing:1px;
+}
+.Normal_badge .notification{
+display:inline-block;
+background-color:rgb(114,114,114);
+padding:3px 7px;
+border-radius:5px;
+font-weight:bold;
+margin-left:5px;
+}
+</style>
+<body>
+
+<div class="main_container">
+<div class="primary_badge">
+<h1 class="one">Example heading<span>New</span></h1>
+<h2 class="two">Example heading<span>New</span></h2>
+<h3 class="three">Example heading<span>New</span></h3>
+<h4 class="four">Example heading<span>New</span></h4>
+<h5 class="five">Example heading<span>New</span></h5>
+<h6 class="six">Example heading<span>New</span></h6>
+</div>
+<div class="secondary_badge">
+<a href="#">Profile</a><div class="notification"></div>
+</div>
+<div class="count_badge">
+<a href="#">inbox</a><div class="notification">
+99+
+</div>
+</div>
+<div class="Normal_badge">
+<a href="#">Notification<span class="notification">4</span></a>
+</div>
+</div>
+</body>
+</html>
